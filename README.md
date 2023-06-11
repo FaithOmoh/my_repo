@@ -1,19 +1,6 @@
-# Introduction
-Real-world data rarely comes clean. Using Python and its libraries, you will gather data from a variety of sources and in a variety of formats, assess its quality and tidiness, then clean it. This is called data wrangling. You will document your wrangling efforts in a Jupyter Notebook, plus showcase them through analyses and visualizations using Python (and its libraries) and/or SQL.
+#Developing a Q-Learning Agent for Solving Grid World Environment Problems using Reinforcement Learning and Python
 
-The dataset that you will be wrangling (and analyzing and visualizing) is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. These ratings almost always have a denominator of 10. The numerators, though? Almost always greater than 10. 11/10, 12/10, 13/10, etc. Why? Because "they're good dogs Brent." WeRateDogs has over 4 million followers and has received international media coverage.
-
-WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively for you to use in this project. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017.
-
-#Work Done
-1. Gathering data
-
-2. Assessing data
-
-3. Cleaning data
-
-4. Storing data
-
-5. Analyzing, and visualizing data
-
-6. Reporting
+##Abstract
+Grid world environment provides a foundational approach to the application of reinforcement learning. This report illustrates the process of exploration and exploitation in
+solving grid world problems and further details the formulation of policy, environment, observation, and action in the context of grid world problem-solving. A learning agent is created to explore using the epsilon-greedy method for the grid world environment which is configured with a board layout of 5 by 5 and the borders are bounded by four possible actions, North, South, East, and West. The agent is faced with obstacles and rewarded at the JUMP and WIN state with +5 and +10 respectively, while other states give a -1. The agent is trained for 100 episodes to stop whenever the agent earns an average cumulative reward that is at least 10. The state values of each grid cell with the board layout are formulated and visualization is carried out at the execution of the code.
+Keywords— Deep Learning, Q-Learning, Q-table, Grid World, Reinforcement Learning.
