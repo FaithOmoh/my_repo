@@ -2,7 +2,7 @@
 
 import numpy as np
 
-# global variables
+# define global variables
 BOARD_ROWS = 5
 BOARD_COLS = 5
 WIN_STATE = (4, 4)
